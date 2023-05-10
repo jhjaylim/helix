@@ -6,6 +6,9 @@ import HighlightOffIcon from '@mui/icons-material/HighlightOff';
 import AbcIcon from '@mui/icons-material/Abc';
 import PhotoLibraryIcon from '@mui/icons-material/PhotoLibrary';
 
+const QUESTION = "question"
+const TITLE = "title"
+
 const whiteRoundCardStyle = {
   background: 'white',
   borderRadius: '18px',
