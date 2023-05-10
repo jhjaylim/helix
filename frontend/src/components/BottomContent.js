@@ -118,7 +118,7 @@ function RightBottomTopExperts() {
         </Box>
 }
 
-export default function BottomContent({ isPopUpOpen, setPopUpStat, userId }) {
+export default function BottomContent({ isPopUpOpen, setPopUpState, userId }) {
   const [questions, setQuestions] = useState([]);
   useEffect(() => {
       getQuestions(userId).then((data) => {
